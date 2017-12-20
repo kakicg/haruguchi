@@ -58,11 +58,11 @@ var {
 * html div,
 a,
 img.t {
-  behavior: url(assets/js/iepngfix.htc);
+  behavior: url(js/iepngfix.htc);
 }
 body {
   background-color: #000;
-  background-image: url(assets/templates/haruguchi/images/menu_right_ext.jpg);
+  background-image: url(images/menu_right_ext.jpg);
   background-repeat: repeat-x;
   background-position: 900px 0px;
   font-family: Arial, "メイリオ", "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", sans-serif;
@@ -107,7 +107,7 @@ div#page {
 /* Header */
 /**********/
 div#header {
-  background-image: url(assets/templates/haruguchi/images/menu.jpg);
+  background-image: url(images/menu.jpg);
   background-repeat: no-repeat;
   height: 229px;
   width: 799px;
@@ -133,22 +133,22 @@ div#menus ul li a.home:hover {
 }
 div#menus ul li a.home {
   width: 54px;
-  background-image: url(assets/templates/haruguchi/images/home.png);
+  background-image: url(images/home.png);
   background-repeat: no-repeat;
 }
 div#menus ul li a.biography {
   width: 100px;
-  background-image: url(assets/templates/haruguchi/images/biography.png);
+  background-image: url(images/biography.png);
   background-repeat: no-repeat;
 }
 div#menus ul li a.works {
   width: 61px;
-  background-image: url(assets/templates/haruguchi/images/works.png);
+  background-image: url(images/works.png);
   background-repeat: no-repeat;
 }
 div#menus ul li a.contact {
   width: 76px;
-  background-image: url(assets/templates/haruguchi/images/contact.png);
+  background-image: url(images/contact.png);
   background-repeat: no-repeat;
 }
 #work1 {
@@ -254,10 +254,10 @@ html > body #hanbai,
   margin: 40px 0 40px 40px;
 }
 #hanbai {
-  background-image: url(assets/templates/haruguchi/images/hatubai.jpg);
+  background-image: url(images/hatubai.jpg);
 }
 #hanbai-en {
-  background-image: url(assets/templates/haruguchi/images/hatubai_en.jpg);
+  background-image: url(images/hatubai_en.jpg);
 }
 #hanbai a,
 #hanbai-en a {
@@ -294,10 +294,10 @@ html > body #hanbai,
   top: 193px;
 }
 #banner {
-  background-image: url(assets/templates/haruguchi/images/banner.jpg);
+  background-image: url(images/banner.jpg);
 }
 #banner-en {
-  background-image: url(assets/templates/haruguchi/images/banner_en.jpg);
+  background-image: url(images/banner_en.jpg);
   /* display: none; */
 }
 #banner a,
@@ -316,7 +316,6 @@ html > body #hanbai,
   height: 800px;
 }
 #page #row-top {
-  /*background-image: url(assets/site/images/sketch.jpg);*/
   /*トップページ作品*/
   /**************/
   background-repeat: no-repeat;
@@ -412,7 +411,7 @@ ul#clitic-menu {
 }
 ul#clitic-menu li {
   padding: 8px 8px 8px 30px;
-  background-image: url(assets/images/arrow.gif);
+  background-image: url(images/arrow.gif);
   background-repeat: no-repeat;
   background-position: 8px 10px;
 }
@@ -451,7 +450,7 @@ div#thumbnails img {
 }
 #page div#work-comment {
   width: 630px;
-  background-image: url(assets/templates/haruguchi/images/portrait_haruguchi.png);
+  background-image: url(images/portrait_haruguchi.png);
   background-position: 0px 30px;
   background-repeat: no-repeat;
   margin-top: 0px;
