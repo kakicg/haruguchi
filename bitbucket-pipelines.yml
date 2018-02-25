@@ -8,5 +8,5 @@ image: samueldebruyn/debian-git
          - apt-get update
          - apt-get -qq install git-ftp
          - echo "Initiating Push"
-         - git ftp init --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://kakicg.xsrv.jp/cgkojo.com/public_html/haruguchi
+         - git ftp init --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://kakicg.xsrv.jp/cgkojo.com/public_html/haruguchi/
          - echo "Done Pushing"
